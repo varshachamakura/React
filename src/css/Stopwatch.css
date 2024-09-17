@@ -1,0 +1,54 @@
+/* Stopwatch.css */
+
+.stopwatch {
+    text-align: center;
+    padding: 30px;
+    background-color: #000; /* Black background for the stopwatch area */
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+    border: 5px solid lightblue; /* Static light blue border */
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    color: #fff; /* White color for text */
+  }
+  
+  .time-display {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #fff; /* White color for numbers */
+  }
+  
+  .number {
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 5px;
+    color: #fff; /* White color for text */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 0 5px;
+    background-color: #fff;
+    color: #000;
+  }
+  

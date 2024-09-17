@@ -1,0 +1,64 @@
+/* Form.css or styles.css */
+
+/* General form styling */
+form {
+    max-width: 400px; /* Limit the form width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border around the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Styling for form groups */
+  .mb-3 {
+    margin-bottom: 16px; /* Space between form elements */
+  }
+  
+  /* Label styling */
+  .form-label {
+    font-weight: bold; /* Make labels bold */
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input field styling */
+  .form-control {
+    width: 100%; /* Full width for input fields */
+    padding: 10px;
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded input field corners */
+    font-size: 14px;
+    transition: border-color 0.3s; /* Smooth transition for focus effect */
+  }
+  
+  /* Input field focus effect */
+  .form-control:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+  }
+  
+  /* Checkbox styling */
+  .form-check-input {
+    margin-right: 8px; /* Space between checkbox and label */
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px; /* Rounded button corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3;
+  }
+  
